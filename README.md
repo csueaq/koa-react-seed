@@ -8,3 +8,11 @@ docker build -t koa-react .
 change docker-compose.yml volumes to match your local dir
 
 docker-compose up
+
+insert the following data to mongodb :
+
+
+{
+    "role" : "admin",
+    "name" : "YOUR_NAME"
+}
