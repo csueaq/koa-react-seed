@@ -1,7 +1,5 @@
 frontend :
   image : koa-react
-  volumes :
-    - ~/work/github/koa-react-seed:/usr/local/app
   links :
     - mongo
     - redis

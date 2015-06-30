@@ -3,13 +3,13 @@ koa react serverside rendering with redis and mongo, dockerized with compose.yam
 
 # usage :
 
-docker build -t koa-react .
+install docker and docker-compose
 
-change docker-compose.yml volumes to match your local dir
+docker build -t koa-react .
 
 docker-compose up
 
-insert the following data to mongodb :
+create a collection called "user" and insert the following data to mongodb :
 
 
 {
