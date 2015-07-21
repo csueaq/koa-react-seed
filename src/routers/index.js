@@ -13,7 +13,7 @@ indexRouter.get('/', function *() {
     var data = yield dao.get();
     this.body=React.renderToString(
         index({
-            date: data.name
+            name: data.name
         })
     );
 
